@@ -1,17 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1097" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1158" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3GRVmK6hljvbz2TBf-cd-1" value="Park Office" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="140" height="60" as="geometry" />
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-1" value="w2151870_Office" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3GRVmK6hljvbz2TBf-cd-5" value="Park Office" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="140" height="65" as="geometry" />
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-10" value="officeID[PK]&lt;div&gt;location&lt;/div&gt;&lt;div&gt;contactNumber&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-1">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3GRVmK6hljvbz2TBf-cd-6" value="Park Office" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="130" width="140" height="60" as="geometry" />
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-6" value="w2151870_Staff" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-11" value="staffID[PK]&lt;div&gt;fName&lt;/div&gt;&lt;div&gt;lName&lt;/div&gt;&lt;div&gt;role&lt;/div&gt;&lt;div&gt;officeID[FK]&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-6">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-12" value="w2151870_Vehical" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-13" value="vehicalID[PK]&lt;div&gt;licensePlate&lt;/div&gt;&lt;div&gt;capacity&lt;/div&gt;&lt;div&gt;officeID[FK]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-12">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-16" value="w2151870_Tourist" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-17" value="touristID[PK]&lt;div&gt;fName&lt;/div&gt;&lt;div&gt;lName&lt;/div&gt;&lt;div&gt;contactNumber&lt;/div&gt;&lt;div&gt;country&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-16">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-20" value="w2151870_Tour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-21" value="tourID[PK]&lt;div&gt;tourDate&lt;/div&gt;&lt;div&gt;TourTime&lt;/div&gt;&lt;div&gt;numberOfParticipants&lt;/div&gt;&lt;div&gt;tourLeader[FK]&lt;/div&gt;&lt;div&gt;office[ID]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-20">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-24" value="w2151870_Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-25" value="paymentID[PK]&lt;div&gt;amount&lt;/div&gt;&lt;div&gt;paymentData&lt;/div&gt;&lt;div&gt;tourID[FK]&lt;/div&gt;&lt;div&gt;rentalOrder[Fk]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-24">
+          <mxGeometry y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-28" value="w2151870_TourAllocation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-29" value="AllocationID[PK]&lt;div&gt;TourID[Fk]&lt;/div&gt;&lt;div&gt;Vehical[Fk]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-28">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-32" value="w2151870_InventoryItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-33" value="itemID[PK]&lt;div&gt;itemName&lt;/div&gt;&lt;div&gt;rentalPrice&lt;/div&gt;&lt;div&gt;officeID[Fk]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-32">
+          <mxGeometry y="30" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-42" value="w2151870_RentalOrder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="360" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-43" value="rentalID[PK]&lt;div&gt;tourID[FK]&lt;/div&gt;&lt;div&gt;TourLeader[FK]&lt;/div&gt;&lt;div&gt;rentalDate&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="3GRVmK6hljvbz2TBf-cd-42">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
