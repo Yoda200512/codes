@@ -31,7 +31,7 @@
         <mxCell id="3GRVmK6hljvbz2TBf-cd-20" value="w2151870_Tour" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="425" y="199" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3GRVmK6hljvbz2TBf-cd-21" value="tourID[PK]&lt;div&gt;tourDate&lt;/div&gt;&lt;div&gt;TourTime&lt;/div&gt;&lt;div&gt;numberOfParticipants&lt;/div&gt;&lt;div&gt;tourLeader[FK]&lt;/div&gt;&lt;div&gt;officeID[FK]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3GRVmK6hljvbz2TBf-cd-20" vertex="1">
+        <mxCell id="3GRVmK6hljvbz2TBf-cd-21" value="tourID[PK]&lt;div&gt;tourDate&lt;/div&gt;&lt;div&gt;TourTime&lt;/div&gt;&lt;div&gt;participants&lt;/div&gt;&lt;div&gt;tourLeader[FK]&lt;/div&gt;&lt;div&gt;officeID[FK]&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="3GRVmK6hljvbz2TBf-cd-20" vertex="1">
           <mxGeometry y="30" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="3GRVmK6hljvbz2TBf-cd-24" value="w2151870_Payment" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
